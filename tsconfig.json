@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "module": "ESNext",
+    "target": "ES6",
+    "baseUrl": "./",
+    "outDir": "./dist/",
+    "paths": {
+      "*": ["src/*"]
+    }
+  },
+  "include": ["**/*.ts"]
+}
